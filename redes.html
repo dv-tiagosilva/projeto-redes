@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio com Redes Sociais - Desenvolvedor Tiago Silva</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html, body {
+            height: 100vh;
+            width: 100vw;
+            background-color: black;
+        }
+
+        body {
+            background: url(imagens/fundo-madeira.jpg) no-repeat top center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        #telefone {
+            width: 311px;
+            height: 627px;
+            background: url(imagens/frame-iphone.png);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+        }
+
+        .content-nav {
+            text-align: right;
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .nav {
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        #tela {
+            width: 200px;
+            height: 400px;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="container">
+        <section id="telefone">
+                <iframe src="" frameborder="url ()" id="tela" name="frame"></iframe>
+        </section>
+        <section id="redes-sociais">
+            <ul class="content-nav">
+                <li class="nav"><a href="imagens/tela-home.jpg" target="frame"><img src="imagens/logo-home.jpg" alt="logo-home"></a><li>
+                <li class="nav"><img src="imagens/logo-youtube.jpg" alt="logo-youtube"></li>
+                <li class="nav"><img src="imagens/logo-github.jpg" alt="logo-github"><li>
+                <li class="nav"><img src="imagens/logo-instagram.jpg" alt="logo-instagram"><li>
+                <li class="nav"><img src="imagens/logo-twitter.jpg" alt="logo-twitter"><li>
+                <li class="nav"><img src="imagens/logo-facebook.jpg" alt="logo-twitter"><li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
